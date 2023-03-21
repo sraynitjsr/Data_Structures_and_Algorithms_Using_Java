@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class My_Kth_Smallest_and_Largest_Element {
+public class MyKthSmallestAndLargestElement {
 
     public static void kLargest(int arr[], int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
