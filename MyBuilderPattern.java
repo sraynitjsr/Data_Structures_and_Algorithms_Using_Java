@@ -1,5 +1,3 @@
-package com.sraynitjsr.design_patterns;
-
 class Product {
 	private String name;
 	private int version;

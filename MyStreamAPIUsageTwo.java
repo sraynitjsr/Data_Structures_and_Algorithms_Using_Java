@@ -1,10 +1,10 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-class Student {
+class StudentClass {
     private int roll;
     private String name;
-    public Student(int r, String n) {
+    public StudentClass(int r, String n) {
         this.roll = r;
         this.name = n;
     }
@@ -18,32 +18,32 @@ class Student {
 
 class MyStreamAPIUsageTwo {
 
-    public static void sortByRoll(List<Student> students) {
-        System.out.println("\n\nSorting by Roll in Ascending Order => " + students);
-        students.stream().sorted(Comparator.comparing(Student::getRoll)).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
+    public static void sortByRoll(List<StudentClass> StudentClasss) {
+        System.out.println("\n\nSorting by Roll in Ascending Order => " + StudentClasss);
+        StudentClasss.stream().sorted(Comparator.comparing(StudentClass::getRoll)).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
 
-        System.out.println("\n\nSorting by Roll in Descending Order => " + students);
-        students.stream().sorted(Comparator.comparing(Student::getRoll).reversed()).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
+        System.out.println("\n\nSorting by Roll in Descending Order => " + StudentClasss);
+        StudentClasss.stream().sorted(Comparator.comparing(StudentClass::getRoll).reversed()).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
     }
 
-    public static void sortByName(List<Student> students) {
-        System.out.println("\n\nSorting by Name in Ascending Order => " + students);
-        students.stream().sorted(Comparator.comparing(Student::getName)).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
+    public static void sortByName(List<StudentClass> StudentClasss) {
+        System.out.println("\n\nSorting by Name in Ascending Order => " + StudentClasss);
+        StudentClasss.stream().sorted(Comparator.comparing(StudentClass::getName)).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
 
-        System.out.println("\n\nSorting by Name in Descending Order => " + students);
-        students.stream().sorted(Comparator.comparing(Student::getName).reversed()).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
+        System.out.println("\n\nSorting by Name in Descending Order => " + StudentClasss);
+        StudentClasss.stream().sorted(Comparator.comparing(StudentClass::getName).reversed()).collect(Collectors.toList()).forEach(st -> System.out.print(st.getName() + "<=>" + st.getRoll() + "\t"));
     }
 
     public static void start() {
         System.out.println("\n\nInside Second Stream API Module");
-        Student s1 = new Student(10,"Sachin");
-        Student s3 = new Student(40,"Virat");
-        Student s4 = new Student(20,"Dhoni");
-        Student s2 = new Student(30,"Zaheer");
-        List<Student> students = new ArrayList<>();
-        students.add(s1); students.add(s2); students.add(s3); students.add(s4); 
-        sortByName(students);
-        sortByRoll(students);
+        StudentClass s1 = new StudentClass(10,"Sachin");
+        StudentClass s3 = new StudentClass(40,"Virat");
+        StudentClass s4 = new StudentClass(20,"Dhoni");
+        StudentClass s2 = new StudentClass(30,"Zaheer");
+        List<StudentClass> StudentClasss = new ArrayList<>();
+        StudentClasss.add(s1); StudentClasss.add(s2); StudentClasss.add(s3); StudentClasss.add(s4); 
+        sortByName(StudentClasss);
+        sortByRoll(StudentClasss);
         System.out.println("");
     }
 }
