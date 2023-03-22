@@ -1,5 +1,3 @@
-package com.sraynitjsr.design_patterns;
-
 public class MySingletonPattern {
 	private static MySingletonPattern obj = null;
 	
