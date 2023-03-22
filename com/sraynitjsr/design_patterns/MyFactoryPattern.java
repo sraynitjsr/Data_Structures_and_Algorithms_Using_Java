@@ -1,5 +1,3 @@
-package com.sraynitjsr.design_patterns;
-
 interface Shape {
 	void display();
 }
