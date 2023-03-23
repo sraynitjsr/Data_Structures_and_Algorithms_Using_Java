@@ -6,7 +6,7 @@ public class MyMain {
 		// MyHashMap.operateHashMap();
 		// MyClassSorting.sortStudentsByNameLength();
 		// MyMultiThreadingSharedResource.operateMultiThreading();
-		// MySimpleThreading.operateThreading();
+		MySimpleThreading.operateThreading();
 		// MyLinkedListReverse.start();
 		// MyStreamAPIUsageOne.start();
 		// MyStreamAPIUsageTwo.start();		

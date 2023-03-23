@@ -22,5 +22,9 @@ class MySimpleThreading {
 		Thread t2 = new Thread(myThreadObject);
 		t2.start();
 		t2.join();
+
+		Thread t3 = Thread.startVirtualThread(myThreadObject);		
+		t3.start();
+		t3.join();
 	}
 }
