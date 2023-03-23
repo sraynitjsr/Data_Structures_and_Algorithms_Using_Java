@@ -1,6 +1,6 @@
 public class MyMain {
 	public static void main(String[] args) throws Exception {
-		System.out.print("\n\n....Welcome to the world of Java....\n");
+		System.out.print("\n....Welcome to the world of Java....");
 		// MyInputOutput.inputOutput();
 		// MyArrayList.operateList();
 		// MyHashMap.operateHashMap();
@@ -15,5 +15,6 @@ public class MyMain {
 		// MyTripletSum.start();
 		// MyHashMapSorting.start();
 		// MyKthSmallestAndLargestElement.start();
+		System.out.println("\n");
 	}
 }
