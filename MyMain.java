@@ -1,19 +1,5 @@
 public class MyMain {
 	public static void main(String[] args) throws Exception {
-		System.out.print("\n....Welcome to the world of Java....");
-		MyInputOutput.inputOutput();
-		MyArrayList.operateList();
-		MyHashMap.operateHashMap();
-		MyClassSorting.sortStudentsByNameLength();
-		MyMultiThreadingSharedResource.operateMultiThreading();
-		MySimpleThreading.operateThreading();
-		MyLinkedListReverse.start();
-		MyStreamAPIUsageOne.start();
-		MyStreamAPIUsageTwo.start();		
-		MySortByFrequency.start();
-		MyTripletSum.start();
-		MyHashMapSorting.start();
-		MyKthSmallestAndLargestElement.start();
-		System.out.println("\n");
+		System.out.print("Welcome to the world of Java........");
 	}
 }
