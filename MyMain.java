@@ -11,6 +11,7 @@ public class MyMain {
 		System.out.println("");
 		MyHashMap.start();
 		
-		System.out.println("\n");
+		System.out.println("");
+		MyHashSet.start();
 	}
 }
