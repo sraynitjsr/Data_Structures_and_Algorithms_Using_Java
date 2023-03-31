@@ -16,3 +16,4 @@ class MyInputOutput {
 		System.out.println("String => " + myString + " Integer => " + myInteger + " Float => " + myFraction);
 	}
 }
+ 
