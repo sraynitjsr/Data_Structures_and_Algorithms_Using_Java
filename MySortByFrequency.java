@@ -22,7 +22,7 @@ class DataSetComparator implements Comparator<DataSet> {
 
 class MySortByFrequency {
     public static void start() {
-        System.out.println("Sorting HashMap Without Using Stream API");
+        System.out.println("Sorting HashMap Without Stream API");
         int myArray[] = {1, 1, 3, 3, 4, 1, 2, 5, 6, 5, 5, 5, 6, 7};
         
         HashMap<Integer, Integer> hashMap = new HashMap<>();
