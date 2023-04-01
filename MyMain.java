@@ -13,5 +13,8 @@ public class MyMain {
 		
 		System.out.println("");
 		MyHashSet.start();
+
+		System.out.println("");
+		MySingletonPattern.start();
 	}
 }
