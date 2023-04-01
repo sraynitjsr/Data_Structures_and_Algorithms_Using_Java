@@ -20,9 +20,9 @@ class DataSetComparator implements Comparator<DataSet> {
     }
 }
 
-class MyHashMapSortByFrequency {
+class MySortByFrequency {
     public static void start() {
-        System.out.println("Inside Sort HashMap Class");
+        System.out.println("Sorting HashMap Without Using Stream API");
         int myArray[] = {1, 1, 3, 3, 4, 1, 2, 5, 6, 5, 5, 5, 6, 7};
         
         HashMap<Integer, Integer> hashMap = new HashMap<>();

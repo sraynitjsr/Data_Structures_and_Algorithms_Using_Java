@@ -21,6 +21,9 @@ public class MyMain {
 		MyFactoryPattern.start();
 
 		System.out.println("");
-		MyHashMapSortByFrequency.start();
+		MySortByFrequency.start();
+
+		System.out.println("");
+		MySortByFrequencyStreamAPI.start();
 	}
 }
