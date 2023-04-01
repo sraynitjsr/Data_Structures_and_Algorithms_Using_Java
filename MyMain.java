@@ -19,5 +19,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyFactoryPattern.start();
+
+		System.out.println("");
+		MyHashMapSortByFrequency.start();
 	}
 }
