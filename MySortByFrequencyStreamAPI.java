@@ -1,7 +1,7 @@
 import java.util.*;
 public class MySortByFrequencyStreamAPI {
     public static void start() {
-        System.out.println("Sorting HashMap Using Stream API");
+        System.out.println("Sorting HashMap Using the Stream API");
         HashMap<String, Integer> hashMap = new HashMap<>();
         hashMap.put("Amit", 40);
         hashMap.put("Virat", 20);
