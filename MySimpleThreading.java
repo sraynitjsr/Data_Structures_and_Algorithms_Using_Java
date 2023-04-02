@@ -1,4 +1,4 @@
-class MyThread implements Runnable {
+class MyThreadOne implements Runnable {
 	public void run() {
 		for (int i=0; i<5; i++) {
 			System.out.println("Welcome to " + Thread.currentThread().getName());
@@ -14,7 +14,7 @@ class MyThread implements Runnable {
 class MySimpleThreading {
 	public static void start() throws Exception {
 		System.out.println("Creating Java Thread by Implementing Runnable Interface");
-		MyThread myThreadObject = new MyThread();
+		MyThreadOne myThreadObject = new MyThreadOne();
 		
 		Thread t1 = new Thread(myThreadObject);
 		t1.start();
