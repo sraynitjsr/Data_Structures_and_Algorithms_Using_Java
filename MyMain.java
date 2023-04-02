@@ -27,6 +27,6 @@ public class MyMain {
 		MySortByFrequencyStreamAPI.start();
 
 		System.out.println("");
-		MySimpleThreading.start();
+		MyThreadingByInterface.start();
 	}
 }

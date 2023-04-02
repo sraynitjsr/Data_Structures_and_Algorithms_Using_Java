@@ -11,7 +11,7 @@ class MyThreadOne implements Runnable {
 	}
 }
 
-class MySimpleThreading {
+class MyThreadingByInterface {
 	public static void start() throws Exception {
 		System.out.println("Creating Java Thread by Implementing Runnable Interface");
 		MyThreadOne myThreadObject = new MyThreadOne();
