@@ -9,10 +9,10 @@ public class MyMain {
 		MyArrayList.start();
 
 		System.out.println("");
-		MyHashMap.start();
-		
-		System.out.println("");
 		MyHashSet.start();
+
+		System.out.println("");
+		MyHashMap.start();
 
 		System.out.println("");
 		MySingletonPattern.start();
