@@ -28,5 +28,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyThreadingByInterface.start();
+
+		System.out.println("");
+		MyThreadingByExtending.start();		
 	}
 }
