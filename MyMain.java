@@ -28,8 +28,14 @@ public class MyMain {
 
 		System.out.println("");
 		MyThreadingByInterface.start();
-
+		
+		// Prefer Using Interface
+		/*
+			System.out.println("");
+			MyThreadingByExtending.start();
+		*/
+		
 		System.out.println("");
-		MyThreadingByExtending.start();		
+		MyKthSmallestAndLargestElement.start();
 	}
 }
