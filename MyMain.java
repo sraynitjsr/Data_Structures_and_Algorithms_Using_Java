@@ -43,5 +43,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyBuilderPattern.start();
+
+		System.out.println("");
+		MyLinkedListReverse.start();
 	}
 }
