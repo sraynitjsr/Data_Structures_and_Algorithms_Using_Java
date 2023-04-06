@@ -15,9 +15,6 @@ public class MyMain {
 		MyHashMap.start();
 
 		System.out.println("");
-		MySingletonPattern.start();
-
-		System.out.println("");
 		MyFactoryPattern.start();
 
 		System.out.println("");
@@ -37,5 +34,8 @@ public class MyMain {
 		
 		System.out.println("");
 		MyKthSmallestAndLargestElement.start();
+
+		System.out.println("");
+		MySingletonPattern.start();
 	}
 }

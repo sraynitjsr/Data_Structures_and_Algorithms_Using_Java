@@ -15,7 +15,7 @@ public class MySingletonPattern {
 	}
 	
 	public static void start() {
-		System.out.println("Inside Singleton Class");
+		System.out.println("Inside Singleton Design Class");
 		
 		MySingletonPattern object1 = getInstance();
 		object1.printMessage();
