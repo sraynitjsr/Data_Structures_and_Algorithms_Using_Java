@@ -25,6 +25,9 @@ public class MyMain {
 
 		System.out.println("");
 		MyThreadingByInterface.start();
+
+		System.out.println("");
+		MyHashMapSorting.start();
 		
 		// Prefer Using Interface
 		/*
