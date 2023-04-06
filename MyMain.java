@@ -37,5 +37,8 @@ public class MyMain {
 
 		System.out.println("");
 		MySingletonPattern.start();
+
+		System.out.println("");
+		MyBuilderPattern.start();
 	}
 }
