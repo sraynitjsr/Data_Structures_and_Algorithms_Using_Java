@@ -1,7 +1,7 @@
 public class MyMain {
 	public static void main(String[] args) throws Exception {
 		System.out.print("\n....Welcome to the world of Java....");
-		
+
 		System.out.println("");
 		MyInputOutput.start();
 
@@ -28,13 +28,13 @@ public class MyMain {
 
 		System.out.println("");
 		MyHashMapSorting.start();
-		
+
 		// Prefer Using Interface
 		/*
-			System.out.println("");
-			MyThreadingByExtending.start();
-		*/
-		
+		 * System.out.println("");
+		 * MyThreadingByExtending.start();
+		 */
+
 		System.out.println("");
 		MyKthSmallestAndLargestElement.start();
 
@@ -46,5 +46,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyLinkedListReverse.start();
+
+		System.out.println("");
+		MyStreamAPIExamples.start();
 	}
 }
