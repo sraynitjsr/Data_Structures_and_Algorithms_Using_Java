@@ -49,5 +49,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyStreamAPIExamples.start();
+
+		System.out.println("");
+		MyBST.start();
 	}
 }
