@@ -52,5 +52,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyBST.start();
+
+		System.out.println("");
+		MyHeapSort.start();
 	}
 }
