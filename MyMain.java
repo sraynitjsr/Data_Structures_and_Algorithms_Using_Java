@@ -55,5 +55,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyHeapSort.start();
+
+		System.out.println("");
+		MyWordWrap.start();
 	}
 }
