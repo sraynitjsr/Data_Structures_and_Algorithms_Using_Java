@@ -58,5 +58,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyWordWrap.start();
+
+		System.out.println("");
+		KthLargestElement.start();
 	}
 }
