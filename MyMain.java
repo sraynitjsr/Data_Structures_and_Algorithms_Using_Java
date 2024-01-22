@@ -61,5 +61,8 @@ public class MyMain {
 
 		System.out.println("");
 		KthLargestElement.start();
+
+		System.out.println("");
+		MyGraph.start();
 	}
 }
