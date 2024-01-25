@@ -64,5 +64,8 @@ public class MyMain {
 
 		System.out.println("");
 		MyGraph.start();
+
+		System.out.println("");
+		KSortedArray.start();
 	}
 }
