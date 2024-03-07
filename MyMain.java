@@ -67,5 +67,8 @@ public class MyMain {
 
 		System.out.println("");
 		KSortedArray.start();
+
+		System.out.println("");
+		InterLeaveQueue.start();
 	}
 }
