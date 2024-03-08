@@ -73,5 +73,8 @@ public class MyMain {
 
 		System.out.println("");
 		PairwiseConsecutiveChecker.start();
+
+		System.out.println("");
+		ValidParentheses.start();
 	}
 }
