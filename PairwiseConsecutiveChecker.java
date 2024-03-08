@@ -1,23 +1,34 @@
-import java.util.Arrays;
+import java.util.HashSet;
 
 public class PairwiseConsecutiveChecker {
 
     static boolean areElementsPairwiseConsecutive(int[] arr) {
-        Arrays.sort(arr);
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (Math.abs(arr[i] - arr[i + 1]) != 1) {
+        HashSet<Integer> set = new HashSet<>();
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+        for (int num : arr) {
+            if (set.contains(num)) {
                 return false;
             }
+            set.add(num);
+            min = Math.min(min, num);
+            max = Math.max(max, num);
         }
+
+        if (max - min + 1 != arr.length) {
+            return false;
+        }
+
         return true;
     }
 
     public static void start() {
         int[] arr = {1, 2, 3, 4, 5, 6};
         if (areElementsPairwiseConsecutive(arr)) {
-            System.out.println(Arrays.toString(arr) + " array elements are pairwise consecutive.");
+            System.out.println("Array elements are pairwise consecutive.");
         } else {
-            System.out.println(Arrays.toString(arr) + " array elements are not pairwise consecutive.");
+            System.out.println("Array elements are not pairwise consecutive.");
         }
     }
 }
