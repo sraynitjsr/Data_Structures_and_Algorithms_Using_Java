@@ -70,5 +70,8 @@ public class MyMain {
 
 		System.out.println("");
 		InterLeaveQueue.start();
+
+		System.out.println("");
+		PairwiseConsecutiveChecker.start();
 	}
 }
