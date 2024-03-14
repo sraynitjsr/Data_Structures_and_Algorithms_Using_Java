@@ -76,5 +76,8 @@ public class MyMain {
 
 		System.out.println("");
 		ValidParentheses.start();
+
+		System.out.println("");
+		BalancedBSTFromArray.start();
 	}
 }
