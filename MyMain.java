@@ -8,5 +8,8 @@ public class MyMain {
         
         System.out.println("Variables Package");
         MyVariables.start();
+
+        System.out.println("Taking Input of Various Types and Output Them");
+        MyInputOutput.start();
     }
 }
