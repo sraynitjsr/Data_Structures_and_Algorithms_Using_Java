@@ -1,51 +1,66 @@
 package com.sraynitjsr.inputout;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.IOException;
 
 public class MyInputOutput {
     public static void start() {
-        Scanner scanner = new Scanner(System.in);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        System.out.println("Enter an integer:");
-        int myInt = scanner.nextInt();
+        try {
+            writer.write("Enter an integer:\n");
+            writer.flush();
+            int myInt = Integer.parseInt(reader.readLine());
 
-        System.out.println("Enter a double:");
-        double myDouble = scanner.nextDouble();
+            writer.write("Enter a double:\n");
+            writer.flush();
+            double myDouble = Double.parseDouble(reader.readLine());
 
-        System.out.println("Enter a boolean:");
-        boolean myBoolean = scanner.nextBoolean();
+            writer.write("Enter a boolean:\n");
+            writer.flush();
+            boolean myBoolean = Boolean.parseBoolean(reader.readLine());
 
-        System.out.println("Enter a character:");
-        char myChar = scanner.next().charAt(0);
+            writer.write("Enter a character:\n");
+            writer.flush();
+            char myChar = reader.readLine().charAt(0);
 
-        System.out.println("Enter a byte:");
-        byte myByte = scanner.nextByte();
+            writer.write("Enter a byte:\n");
+            writer.flush();
+            byte myByte = Byte.parseByte(reader.readLine());
 
-        System.out.println("Enter a short:");
-        short myShort = scanner.nextShort();
+            writer.write("Enter a short:\n");
+            writer.flush();
+            short myShort = Short.parseShort(reader.readLine());
 
-        System.out.println("Enter a long:");
-        long myLong = scanner.nextLong();
+            writer.write("Enter a long:\n");
+            writer.flush();
+            long myLong = Long.parseLong(reader.readLine());
 
-        System.out.println("Enter a float:");
-        float myFloat = scanner.nextFloat();
+            writer.write("Enter a float:\n");
+            writer.flush();
+            float myFloat = Float.parseFloat(reader.readLine());
 
-        scanner.nextLine();
+            writer.write("Enter a string:\n");
+            writer.flush();
+            String myString = reader.readLine();
 
-        System.out.println("Enter a string:");
-        String myString = scanner.nextLine();
-
-        System.out.println("You entered:");
-        System.out.println("myInt: " + myInt);
-        System.out.println("myDouble: " + myDouble);
-        System.out.println("myBoolean: " + myBoolean);
-        System.out.println("myChar: " + myChar);
-        System.out.println("myByte: " + myByte);
-        System.out.println("myShort: " + myShort);
-        System.out.println("myLong: " + myLong);
-        System.out.println("myFloat: " + myFloat);
-        System.out.println("myString: " + myString);
-
-        scanner.close();
+            writer.write("You entered:\n");
+            writer.write("myInt: " + myInt + "\n");
+            writer.write("myDouble: " + myDouble + "\n");
+            writer.write("myBoolean: " + myBoolean + "\n");
+            writer.write("myChar: " + myChar + "\n");
+            writer.write("myByte: " + myByte + "\n");
+            writer.write("myShort: " + myShort + "\n");
+            writer.write("myLong: " + myLong + "\n");
+            writer.write("myFloat: " + myFloat + "\n");
+            writer.write("myString: " + myString + "\n");
+            writer.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
