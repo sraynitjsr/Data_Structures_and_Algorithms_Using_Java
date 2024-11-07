@@ -1,4 +1,4 @@
-package com.sraynitjsr.variables;
+package com.sraynitjsr.streams;
 
 public class MyStreamAPI {
     public static void start() {
