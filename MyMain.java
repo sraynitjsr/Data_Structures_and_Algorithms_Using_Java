@@ -3,6 +3,7 @@ package com.sraynitjsr.main;
 import com.sraynitjsr.variables.*;
 import com.sraynitjsr.inputout.*;
 import com.sraynitjsr.streams.*;
+import com.sraynitjsr.exceptionhandling.*;
 
 public class MyMain {
     public static void main(String[] args) {
@@ -16,5 +17,8 @@ public class MyMain {
 
         System.out.println("Stream API Using Java");
         MyStreamAPI.start();
+
+        System.out.println("Exception Handling Using Java");
+        MyExceptionHandling.start();
     }
 }
