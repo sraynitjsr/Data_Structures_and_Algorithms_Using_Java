@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow .java files
+!*.java
+
+# Allow directories (so that folder structure is preserved)
+!*/
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Ignore specific folders or files (like .metadata)
+.metadata/
